@@ -22,12 +22,14 @@
 **LC Margin (10%):** 1,200,000 BDT
 
 ```
+Voucher 1 – Margin Deposit:
 Dr LC Margin with Bank       1,200,000
     Cr Bank Account                  1,200,000
 
+Voucher 2 – LC Opening Charges:
 Dr LC Opening Expense           15,000
     Cr Bank Account                     15,000
-
+Voucher 3 – Insurance:
 Dr Insurance Expense             8,000
     Cr Bank Account                      8,000
 ```
@@ -48,13 +50,14 @@ Dr Goods in Transit (Inventory)     12,000,000
 **VAT (15%):** 1,800,000
 
 ```
+Voucher 1 – Transfer Goods in Transit to Inventory:
 Dr Inventory (CIF value)           12,000,000
     Cr Goods in Transit                  12,000,000
-
+Voucher 2 – Customs Duty & VAT:
 Dr Inventory (Customs Duty)        1,200,000
 Dr Input VAT Receivable             1,800,000
     Cr Bank Account                       3,000,000
-
+Voucher 3 – Freight, Clearing & Transport:
 Dr Inventory                        300,000
     Cr Bank Account                      300,000
 ```
@@ -70,6 +73,10 @@ Per Unit Cost = 13,500,000 ÷ 5,000 = 2,700.00 BDT per bag
 
 ## Stage 4 – LC Maturity Payment
 ```
+At maturity, the bank debits your account for the LC value in BDT at the current exchange rate.
+LC Value in BDT at payment: 100,000 × 121.50 = 12,150,000
+Exchange Loss: 12,150,000 − 12,000,000 = 150,000 BDT
+Voucher – Payment & Exchange Loss:
 Dr Bills Payable under LC         12,000,000
 Dr Exchange Loss                     150,000
     Cr Bank Account                       12,150,000
