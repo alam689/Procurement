@@ -151,6 +151,25 @@ After LC closure, the only major asset impact is Inventory (and VAT receivable i
 All LC-related liabilities are cleared; P&L reflects only the non-capitalized charges and exchange differences.
 
 ---
+# CIF Value means the Cost, Insurance, and Freight value of imported goods.
+It’s the total value of goods including:
+* Cost (C) – The purchase price of the goods from the supplier.
+* Insurance (I) – The marine/transport insurance premium paid to cover the goods during transit.
+* Freight (F) – The cost of transporting the goods from the supplier’s location to the destination port.
+
+Formula
+* CIF Value=FOB Value+Insurance+Freight
+* FOB Value (Free on Board) = Cost of goods up to loading onto the vessel at the supplier’s port.
+
+Example
+* FOB Value: USD 95,000
+* Insurance: USD 500
+* Freight: USD 4,500
+     * CIF Value=95,000+500+4,500=100,000 USD
+## Why CIF Matters
+* Customs Duty & VAT are often calculated on CIF value (not just cost of goods).
+* In LC (Letter of Credit) documentation, the CIF value is declared to ensure correct import duty calculation.
+* In accounting, CIF value forms the base inventory cost before adding inland transport or local charges.
 
 # Purchase Order vs Proforma Invoice
 
